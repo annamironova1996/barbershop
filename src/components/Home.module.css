@@ -1,0 +1,121 @@
+.main {
+  color: #f7f4f1;
+  background-color: black;
+  background-image: url("../imag/main.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 65px;
+}
+
+.main h2,
+.main h3 {
+  font-size: 30px;
+}
+
+.hiddenElement img {
+  margin-top: 60px;
+}
+
+.advantagesHome ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  margin-top: 79px;
+  margin-bottom: 85px;
+}
+
+.advantagesIcons {
+  margin-top: 16px;
+  width: 28px;
+  height: 29px;
+  color: white;
+}
+
+.advantagesHome li {
+  margin: 0 60px;
+}
+
+.advantagesHome p {
+  margin-top: 31px;
+}
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 36px;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eef0ed;
+  background-image: url("../imag/mainColumns.jpg");
+  padding-top: 55px;
+  padding-bottom: 50px;
+  padding-left: 81px;
+  padding-right: 80px;
+  text-align: left;
+}
+
+.wrapper img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.wrapper ul {
+  list-style: none;
+  margin-bottom: 33px;
+}
+
+.news {
+  width: 40%;
+  height: 100%;
+}
+
+.news ul {
+  margin-top: 33px;
+}
+
+.news time {
+  margin-top: 14px;
+  text-transform: lowercase;
+}
+
+.galary {
+  width: 50%;
+  height: 100%;
+}
+
+.information {
+  width: 50%;
+  height: 100%;
+}
+
+.informaton p {
+  margin-top: 29px;
+  margin-bottom: 28px;
+}
+
+.inputEnroll {
+  width: 40%;
+  height: 100%;
+}
+
+.inputEnroll h4 {
+  margin-top: 35px;
+  margin-bottom: 14px;
+}
+
+.inputEnroll p {
+  margin: 10px 0;
+}
+
+.wrapperButton {
+  display: flex;
+}
+
+.elementButton {
+  margin-right: 20px;
+}

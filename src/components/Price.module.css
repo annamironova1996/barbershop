@@ -1,0 +1,107 @@
+.price {
+  padding-top: 56px;
+  padding-bottom: 82px;
+  background-color: #ffffff;
+  background-image: url("../imag/price.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #000000;
+}
+
+.price h2 {
+  font-size: 30px;
+}
+
+.price h3 {
+  font-size: 24px;
+  margin-bottom: 37px;
+}
+
+.price ul {
+  list-style: none;
+}
+
+.price a {
+  text-decoration: none;
+}
+
+.priceNav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 31px;
+}
+
+.price img {
+  margin-right: 15px;
+  width: 10px;
+  height: 10px;
+}
+
+.wrapperTitle {
+  margin-top: 59px;
+  display: flex;
+  align-items: center;
+}
+
+.priceTitle {
+  font-size: 48px;
+  margin: 0 26px;
+}
+
+.priceLine {
+  width: 26%;
+  height: 2px;
+  background-color: #000000;
+}
+
+.wrapperBlocks {
+  margin-top: 73px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blockMeans {
+  width: 50%;
+}
+
+.blockMeans ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.blockMeans li {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.blockPrice {
+  width: 50%;
+}
+
+.blockPrice table {
+  margin-top: 5px;
+  width: 95%;
+  height: 60%;
+  border: 1px #000000 solid;
+}
+
+.blockPrice td {
+  padding-left: 19px;
+  border: 1px #000000 solid;
+}
+
+.blockDescription {
+  margin-top: 67px;
+  width: 100%;
+  display: flex;
+}
+
+.descriptionAbout {
+  width: 50%;
+}
+
+.descriptionWithButton {
+  width: 50%;
+}

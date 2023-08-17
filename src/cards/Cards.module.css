@@ -1,0 +1,35 @@
+.cards {
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cards ul {
+  list-style: none;
+  display: flex;
+  align-items: last baseline;
+}
+
+.cards .hiddenText {
+  background-color: #ffffff;
+}
+
+.cards img {
+  width: 95%;
+  height: 500px;
+}
+
+.cards h2 {
+  margin-top: 20px;
+}
+
+.cards p {
+  margin-top: 10px;
+}

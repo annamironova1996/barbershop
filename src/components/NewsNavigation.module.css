@@ -1,0 +1,24 @@
+.menuNews {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navNews h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.navNews {
+  display: flex;
+  flex-direction: column;
+}
+
+.navNews button {
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 0;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+}

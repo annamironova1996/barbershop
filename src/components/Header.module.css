@@ -1,0 +1,37 @@
+.header {
+  padding-top: 29px;
+  padding-bottom: 29px;
+  background-color: #000000;
+}
+
+.header button {
+  width: 0;
+  height: 0;
+  margin-right: 50px;
+}
+
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerNav:nth-child(2) {
+  justify-content: flex-end;
+}
+
+.headerNav ul {
+  display: flex;
+  list-style: none;
+}
+
+.headerNav li {
+  margin: 0 40px;
+}
+
+.wrapperLink {
+  margin-top: 1px;
+}
+
+.headerNav a {
+  text-decoration: none;
+}

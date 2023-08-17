@@ -1,0 +1,26 @@
+.register {
+  padding-top: 20px;
+}
+
+.register input {
+  width: 300px;
+  height: 43px;
+  background-color: #f9f6f3;
+  border: 2px solid #000101;
+  margin: 5px 0;
+  padding-left: 10px;
+}
+
+.registerColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 26px;
+}
+
+.register button {
+  width: 300px;
+  height: 43px;
+  margin: 30px auto;
+}
