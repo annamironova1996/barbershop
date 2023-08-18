@@ -1,0 +1,114 @@
+.singleGoods {
+  background-color: #ffffff;
+  color: #000000;
+  background-image: url("../imag/price.jpg");
+  background-repeat: repeat;
+  padding-top: 55px;
+  padding-bottom: 49px;
+}
+
+.singleGoods h3 {
+  font-size: 30px;
+}
+
+.singleGoods a {
+  text-decoration: none;
+}
+
+.pagesTitle {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.singleGoodsNav {
+  margin-top: 28px;
+  margin-bottom: 60px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.singleGoodsNav img {
+  width: 10px;
+  height: 10px;
+  margin: 0 15px;
+}
+
+.containerImgDescription {
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrapperImg {
+  width: 45%;
+  height: 100%;
+}
+
+.maxImg {
+  width: 100%;
+  height: 70%;
+}
+
+.minImg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.minImg ul {
+  list-style: none;
+}
+
+.minImg img {
+  width: 190px;
+  height: 190px;
+}
+
+.wrapperDescription {
+  width: 45%;
+  height: 100%;
+}
+
+.wrapperStatusArticle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.wrapperPriceAndButton {
+  margin-top: 41px;
+  margin-bottom: 67px;
+  display: flex;
+}
+
+.price {
+  width: 130px;
+  height: 43px;
+  line-height: 43px;
+  background-color: #d3d3d3;
+  text-align: center;
+}
+
+.article {
+  color: #aeaeae;
+}
+
+.wrapperAdditionally {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.wrapperAdditionally img {
+  width: 10px;
+  height: 10px;
+  margin-right: 9px;
+}
+
+.wrapperAdditionally li {
+  align-items: center;
+}
+
+.titleAdditionally {
+  margin-bottom: 38px;
+  font-size: 24px;
+}

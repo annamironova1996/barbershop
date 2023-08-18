@@ -27,7 +27,7 @@ const Header = () => {
           <li>
             <NavLink
               className="button"
-              to="/shop"
+              to="shop"
             >
               Магазин
             </NavLink>

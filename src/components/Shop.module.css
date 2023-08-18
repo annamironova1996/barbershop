@@ -1,0 +1,25 @@
+.shop {
+  padding-top: 56px;
+  padding-bottom: 82px;
+  background-color: #ffffff;
+  background-image: url("../imag/price.jpg");
+  background-repeat: repeat;
+  color: #000000;
+}
+
+.shop ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 31px;
+}
+
+.shop a {
+  text-decoration: none;
+}
+
+.shop img {
+  margin-right: 15px;
+  width: 10px;
+  height: 10px;
+}

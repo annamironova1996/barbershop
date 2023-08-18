@@ -5,6 +5,7 @@ import Shop from "./components/Shop";
 import Home from "./components/Home";
 import NotFound from "./components/NotFound";
 import MainLayout from "./layouts/MainLayout";
+import SingleGoods from "./components/SingleGoods";
 import "./App.css";
 
 function App() {
@@ -33,6 +34,10 @@ function App() {
             <Route
               path="shop"
               element={<Shop />}
+            />
+            <Route
+              path="shop/:slug"
+              element={<SingleGoods />}
             />
           </Route>
           <Route

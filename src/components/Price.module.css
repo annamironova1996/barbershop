@@ -3,8 +3,7 @@
   padding-bottom: 82px;
   background-color: #ffffff;
   background-image: url("../imag/price.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   color: #000000;
 }
 
