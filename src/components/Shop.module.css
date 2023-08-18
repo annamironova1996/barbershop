@@ -6,20 +6,24 @@
   background-repeat: repeat;
   color: #000000;
 }
+.shopTitle {
+  font-size: 30px;
+}
+
+.blackRhomb {
+  width: 10px;
+  height: 10px;
+  margin: 0 15px;
+}
 
 .shop ul {
   list-style: none;
   display: flex;
   align-items: center;
   margin-top: 31px;
+  margin-bottom: 20px;
 }
 
 .shop a {
   text-decoration: none;
-}
-
-.shop img {
-  margin-right: 15px;
-  width: 10px;
-  height: 10px;
 }

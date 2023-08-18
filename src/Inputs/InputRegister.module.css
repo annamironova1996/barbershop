@@ -24,3 +24,9 @@
   height: 43px;
   margin: 30px auto;
 }
+
+.register input {
+  font-weight: 700;
+  padding-left: 10px;
+  padding-right: 10px;
+}

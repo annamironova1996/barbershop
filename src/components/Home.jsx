@@ -19,7 +19,7 @@ const Home = () => {
           height="155px"
         />
         <section className={styles.advantagesHome}>
-          <h2 className={styles.hiddenElement}>Преимущества</h2>
+          <h2 className="hiddenElement">Преимущества</h2>
           <ul>
             <li>
               <h3>Быстро</h3>
@@ -79,7 +79,7 @@ const Home = () => {
               </li>
             </ul>
             <NavLink
-              className="button"
+              className={styles.buttonAllNews}
               to="/news"
             >
               Все новости
@@ -88,6 +88,7 @@ const Home = () => {
           <img src={line} />
           <section className={styles.gallary}>
             <h2>Фотогалерея</h2>
+            <SimpleCarousel />
           </section>
         </div>
         <div className={styles.wrapper}>

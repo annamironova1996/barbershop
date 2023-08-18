@@ -1,6 +1,6 @@
 .menuNews {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .navNews h3 {

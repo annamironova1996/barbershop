@@ -94,7 +94,7 @@ const Price = () => {
             </div>
             <div className={styles.descriptionWithButton}>
               <ModalEnroll />
-              <p>
+              <p className={styles.descriptionUnderButton}>
                 Наша мастерская расположена в центре города, поэтому
                 <br />
                 сделать стильную стрижку можно в любое время, даже в <br />

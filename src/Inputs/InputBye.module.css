@@ -17,6 +17,8 @@
   height: 43px;
   margin: 5px 0;
   font-weight: 700;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .buy button {

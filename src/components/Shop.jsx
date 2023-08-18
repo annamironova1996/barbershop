@@ -7,7 +7,7 @@ const Shop = () => {
   return (
     <section className={styles.shop}>
       <div className="container">
-        <h2>Средства для ухода</h2>
+        <h2 className={styles.shopTitle}>BARBERSHOP BORODINSKI — МАГАЗИН</h2>
         <ul>
           <li>
             <Link
@@ -18,7 +18,10 @@ const Shop = () => {
               Главная
             </Link>
           </li>
-          <img src={blackRhomb} />
+          <img
+            className={styles.blackRhomb}
+            src={blackRhomb}
+          />
           <li>
             <Link
               to="."

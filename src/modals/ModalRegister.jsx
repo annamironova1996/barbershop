@@ -27,7 +27,7 @@ const ModalRegister = () => {
         onClose={closeModalRegister}
         className="modalBackground"
       >
-        <div className={styles.bg}>
+        <div>
           <Dialog.Panel className="modalPopup">
             <div>
               <InputRegister />

@@ -10,8 +10,8 @@
 }
 
 .container {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 330px;
+  padding-right: 330px;
 }
 
 .button {
@@ -94,6 +94,8 @@
 }
 
 .modalSubtitle {
+  margin-top: 20px;
+  margin-bottom: 10px;
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;

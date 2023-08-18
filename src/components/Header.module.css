@@ -2,11 +2,19 @@
   padding-top: 29px;
   padding-bottom: 29px;
   background-color: #000000;
+  font-size: 19px;
+}
+
+.header ul {
+  list-style: none;
+}
+
+.header img {
+  width: 25px;
+  height: 25px;
 }
 
 .header button {
-  width: 0;
-  height: 0;
   margin-right: 50px;
 }
 
@@ -21,7 +29,6 @@
 
 .headerNav ul {
   display: flex;
-  list-style: none;
 }
 
 .headerNav li {
@@ -34,4 +41,14 @@
 
 .headerNav a {
   text-decoration: none;
+}
+
+.wpapperRegister {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wrapperRegister li {
+  margin: 0 5px;
 }

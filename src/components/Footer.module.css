@@ -1,20 +1,25 @@
 .footer {
   background-color: #1d1e24;
   background-image: url("../imag/mainFooter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   padding-top: 62px;
   padding-bottom: 43px;
-  display: flex;
   justify-content: space-between;
-  padding-left: 200px;
-  padding-right: 200px;
+  margin: 0 auto;
+}
+
+.wrapperFooter {
+  display: flex;
 }
 
 .social {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: -80px;
+  margin-left: 135px;
+  margin-right: 390px;
 }
 
 .social ul {

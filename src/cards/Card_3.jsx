@@ -11,7 +11,7 @@ const Card_3 = () => {
 
       <Disclosure>
         <ul>
-          <li>
+          <li className={styles.hiddenText}>
             <Disclosure.Panel>
               <p>Приведи друга и получи скидку -15% на любую стрижку!</p>
             </Disclosure.Panel>

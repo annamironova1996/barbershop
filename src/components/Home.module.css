@@ -9,6 +9,21 @@
   padding-bottom: 65px;
 }
 
+.buttonAllNews {
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #000000;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+
+  padding: 11px 32px;
+}
+
 .main h2,
 .main h3 {
   font-size: 30px;
@@ -104,8 +119,8 @@
 }
 
 .inputEnroll h4 {
-  margin-top: 35px;
-  margin-bottom: 14px;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 .inputEnroll p {

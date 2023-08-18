@@ -3,6 +3,13 @@
   flex-direction: column;
 }
 
+.appointment p {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
 .wrapperAppointment {
   display: flex;
   flex-wrap: wrap;
@@ -12,13 +19,16 @@
   font: inherit;
   background-color: transparent;
   border: 2px solid #000000;
-  width: 165px;
+  width: 145px;
   height: 43px;
   margin-right: 23px;
+  font-weight: 700;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .appointment button {
   margin-top: 20px;
-  width: 353px;
+  width: 315px;
   height: 44px;
 }

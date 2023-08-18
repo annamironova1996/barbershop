@@ -1,11 +1,11 @@
 import { Disclosure } from "@headlessui/react";
-import jagermeister from "../imag/jagermeister.jpg";
+import jster from "../imag/jag-ter.jpg";
 import styles from "./Cards.module.css";
 
 const Card_2 = () => {
   return (
     <section className={styles.cards}>
-      <img src={jagermeister} />
+      <img src={jster} />
       <h2>Мы наконец завезли ягермейстер</h2>
       <p>27.06.2016</p>
 
