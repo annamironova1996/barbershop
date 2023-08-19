@@ -18,6 +18,7 @@ const Home = () => {
           width="371px"
           height="155px"
         />
+
         <section className={styles.advantagesHome}>
           <h2 className="hiddenElement">Преимущества</h2>
           <ul>

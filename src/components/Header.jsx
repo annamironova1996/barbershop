@@ -51,6 +51,7 @@ const Header = () => {
                 smooth={true}
                 offset={-70}
                 duration={1500}
+                tabIndex={0}
               >
                 Контакты
               </Link>

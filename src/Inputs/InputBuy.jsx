@@ -3,8 +3,8 @@ import styles from "./InputBye.module.css";
 
 function InputBuy() {
   const [data, setData] = useState({
-    username: "",
-    tel: "",
+    email: "",
+    tel: null,
   });
 
   function handleFormSubmit(event) {
@@ -19,29 +19,40 @@ function InputBuy() {
     <div className={styles.buy}>
       <form onSubmit={handleFormSubmit}>
         <div className={styles.wrapperBuy}>
-          <label>
-            <input
-              type="text"
-              value={data.username}
-              placeholder="ИМЯ"
-              onChange={(event) => handleInputChange(event, "username")}
-            ></input>
+          <label
+            for="person-name"
+            className="hiddenElement"
+          >
+            Имя
           </label>
-          <label>
-            <input
-              placeholder="ТЕЛЕФОН"
-              type="tel"
-              value={data.tel}
-              onChange={(event) => handleInputChange(event, "tel")}
-            ></input>
+          <input
+            id="person-name"
+            type="email"
+            value={data.username}
+            placeholder="ИМЯ"
+            onChange={(event) => handleInputChange(event, "username")}
+          ></input>
+
+          <label
+            for="person-phone"
+            className="hiddenElement"
+          >
+            Телефон
           </label>
+          <input
+            id="person-phone"
+            placeholder="ТЕЛЕФОН"
+            type="tel"
+            value={data.tel}
+            onChange={(event) => handleInputChange(event, "tel")}
+          ></input>
+          <button
+            className="button"
+            type="submit"
+          >
+            Заказать
+          </button>
         </div>
-        <button
-          className="button"
-          type="submit"
-        >
-          Заказать
-        </button>
       </form>
     </div>
   );

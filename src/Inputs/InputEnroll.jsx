@@ -21,39 +21,49 @@ function InputEnroll() {
     <div className={styles.appointment}>
       <form onSubmit={handleFormSubmit}>
         <div className={styles.wrapperAppointment}>
-          <label>
-            <p>Имя</p>
+          <p>
+            <label for="user-name">Имя</label>
+
             <input
+              id="user-name"
               type="text"
               value={data.username}
               onChange={(event) => handleInputChange(event, "username")}
             ></input>
-          </label>
-          <label>
-            <p>Дата</p>
+          </p>
+
+          <p>
+            <label for="some-date">Дата</label>
+
             <input
+              id="some-date"
               type="date"
               value={data.date}
               onChange={(event) => handleInputChange(event, "date")}
             ></input>
-          </label>
-          <label>
-            <p>Время</p>
+          </p>
+
+          <p>
+            <label for="some-time">Время</label>
+
             <input
+              id="some-time"
               type="time"
               value={data.time}
               onChange={(event) => handleInputChange(event, "time")}
             ></input>
-          </label>
-          <label>
-            <p>Телефон</p>
+          </p>
+
+          <p>
+            <label for="user-tel">Телефон</label>
 
             <input
+              id="user-tel"
               type="tel"
               value={data.tel}
               onChange={(event) => handleInputChange(event, "tel")}
             ></input>
-          </label>
+          </p>
         </div>
         <button
           className="button"

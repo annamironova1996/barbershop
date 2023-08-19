@@ -1,0 +1,30 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.item-1 {
+  background-image: url("../imag/photoCarousel_2.jpeg");
+  background-color: #d3d3d3;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.item-2 {
+  background-image: url("../imag/photoCarousel_3.jpeg");
+  background-color: #d3d3d3;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.item-3 {
+  background-image: url("../imag/photoCarousel_2.jpeg");
+  background-color: #d3d3d3;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}

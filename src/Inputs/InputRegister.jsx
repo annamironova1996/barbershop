@@ -20,16 +20,18 @@ const InputRegister = () => {
       <p className="modalSubtitle">Введите свой логин и пароль</p>
       <form onSubmit={handleFormSubmit}>
         <div className={styles.registerColumn}>
-          <label>
+          <label for="user-email">
             <input
+              id="user-email"
               type="email"
               value={data.email}
               placeholder="ЛОГИН"
               onChange={(event) => handleInputChange(event, "email")}
             ></input>
           </label>
-          <label>
+          <label for="user-password">
             <input
+              id="user-password"
               type="password"
               placeholder="ПАРОЛЬ"
               value={data.password}

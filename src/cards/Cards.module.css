@@ -16,6 +16,8 @@
 .cards button {
   border: 2px solid #000000;
   background: transparent;
+  text-transform: uppercase;
+  font-weight: 700;
   width: 200px;
   height: 44px;
   position: absolute;

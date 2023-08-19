@@ -43,27 +43,27 @@ const NewsNavigation = () => {
             <li>
               <Tab>Акции</Tab>
             </li>
-            <li>
+            <li tabIndex={0}>
               <Tab>Вам будет интересно</Tab>
             </li>
-            <li>
+            <li tabIndex={0}>
               <Tab>Уход за бородой</Tab>
             </li>
 
-            <li>
+            <li tabIndex={0}>
               <Tab>Все категории</Tab>
             </li>
             <h3>Архив</h3>
-            <li>
+            <li tabIndex={0}>
               <Tab>Июль 2016</Tab>
             </li>
-            <li>
+            <li tabIndex={0}>
               <Tab>Июнь 2016</Tab>
             </li>
-            <li>
+            <li tabIndex={0}>
               <Tab>Май 2016</Tab>
             </li>
-            <li>
+            <li tabIndex={0}>
               <Tab>Апрель 2016</Tab>
             </li>
             <h3>Мета</h3>
@@ -72,10 +72,10 @@ const NewsNavigation = () => {
                 <ModalRegister />
               </Tab>
             </li>
-            <li>
+            <li tabIndex={0}>
               <Tab>Новости RSS</Tab>
             </li>
-            <li>
+            <li tabIndex={0}>
               <Tab>Комментарии RSS</Tab>
             </li>
           </Tab.List>

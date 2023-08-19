@@ -1,0 +1,28 @@
+.main-container {
+  margin-top: 30px;
+  height: 200px;
+  width: 320px;
+  display: flex;
+}
+
+.wrapperButton {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapperButton button {
+  margin-top: 20px;
+  width: 144px;
+  height: 44px;
+}
+
+.window {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.all-pages-container {
+  height: 100%;
+  display: flex;
+}
